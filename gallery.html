@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Hook and Go Logistics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="Images/logo v2 hook&go logistics .png.png" alt="Hook and Go Logistics V2" class="custom-logo">
+                    <div class="logo-text font-poppins">
+                        <span>HOOK AND GO</span>
+                        <span class="small-text">LOGISTICS</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="gallery.html" class="active">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Our Gallery</h1>
+            <p>View our fleet and past projects</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fleet">Our Fleet</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+                <button class="filter-btn" data-filter="team">Our Team</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Gallery items will be populated with actual images later -->
+                <!-- For now, using placeholders with icons -->
+
+                <div class="gallery-item" data-category="fleet">
+                    <div class="gallery-image">
+                        <img src="Images/Truck loads.png" alt="Volvo Actros" title="Heavy-duty truck loads">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Volvo Actros</h3>
+                        <p>Heavy-duty truck loads</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="fleet">
+                    <div class="gallery-image">
+                        <img src="Images/Trailer .png" alt="Specialized Trailer" title="For extra-wide loads">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Specialized Trailer</h3>
+                        <p>For extra-wide loads</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="Images/Fleet image.png.png" alt="Industrial Equipment Transport" title="Transportation of heavy industrial machinery">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Industrial Equipment Transport</h3>
+                        <p>Transportation of heavy industrial machinery</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="Images/Construction Equipment.png" alt="Construction Equipment Delivery" title="Safe delivery of construction equipment">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Construction Equipment Delivery</h3>
+                        <p>Safe delivery of construction equipment</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="fleet">
+                    <div class="gallery-image">
+                        <img src="_Hook and Go Logistics/Images/IMAGE 2.jpg" alt="Low-bed Trailer" title="For transporting tall equipment">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Low-bed Trailer</h3>
+                        <p>For transporting tall equipment</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="team">
+                    <div class="gallery-image">
+                        <img src="Images/Abnormalpicture.png.jpeg" alt="Abnormal truck" title="The abnormal trucks we have" style="border: 5px solid #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Abnormal truck</h3>
+                        <p>The abnormal trucks we have</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="Images/Abnormal truck heavy load.png" alt="Abnormal Heavy Load" title="Transportation of abnormal heavy loads">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Wind Turbine Component Transport</h3>
+                        <p>Transportation of abnormal heavy loads</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="team">
+                    <div class="gallery-image" style="position: relative; overflow: hidden;">
+                        <img src="Images/Founder.png" alt="Management Team" title="Our dedicated management team" style="width: 100%; height: auto; transition: transform 0.3s; border: 5px solid #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                        <div class="caption-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); color: white; text-align: center; padding: 10px;">
+                            <h3>Management Team</h3>
+                            <p>Our dedicated management team</p>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Management Team</h3>
+                        <p>Our dedicated management team</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="fleet">
+                    <div class="gallery-image">
+                        <img src="Images/Abnormal Fleet v2.png" alt="Abnormal Fleet Escort Vehicle" title="Safety escort for abnormal loads">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Escort Vehicle</h3>
+                        <p>Safety escort for abnormal loads</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="fleet">
+                    <div class="gallery-image">
+                        <img src="Images/ABNORMAL TRUCK.PNG.png" alt="Abnormal Truck" title="Specialized abnormal load truck">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Abnormal Truck</h3>
+                        <p>Specialized vehicle for abnormal loads</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="Images/Heavy Crane Being Lifted Onto  Ship.png.jpeg" alt="Heavy Crane Being Lifted Onto Ship" title="Precision heavy-lifting operations">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Heavy Crane Lift</h3>
+                        <p>A powerful ship-mounted crane hoisting a large mobile crane with expert coordination</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <img src="Images/Mining Equipment Secured on Cargo Vessel.png.jpeg" alt="Mining Equipment Secured on Cargo Vessel" title="Ultra-heavy mining machinery transport">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Mining Equipment Transport</h3>
+                        <p>Massive mining machinery including Hitachi EX-4000 securely loaded on cargo vessel</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <video controls style="width: 100%; height: auto; border: 5px solid #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                            <source src="Images/mp4 description hook and go .png.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Live Heavy-Lift Operation</h3>
+                        <p>Real-time footage of skilled rigging crews handling complex project cargo with precision</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Hook and Go Logistics provided exceptional service for our abnormal load transportation needs. Their team was professional, efficient, and ensured our equipment was delivered safely and on time."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Mining Company Director</h4>
+                            <p>Major Mining Corporation</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"We have been working with Hook and Go Logistics for our heavy equipment transportation needs since 2020. Their attention to detail and commitment to safety is unmatched in the industry."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Logistics Manager</h4>
+                            <p>Engineering Firm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need Abnormal Load Transportation?</h2>
+            <p>Contact us today for a customized quote tailored to your specific requirements.</p>
+            <a href="contact.html" class="cta-button">Get a Quote</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Images/logo v2 hook&go logistics .png.png" alt="Hook and Go Logistics V2" class="custom-logo">
+                <div class="footer-logo-text font-poppins">
+                    <span>HOOK AND GO</span>
+                    <span class="small-text">LOGISTICS</span>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Unit 12, Runtown Way, Newlands West, KwaZulu-Natal 4037</p>
+                <p><i class="fas fa-phone"></i> +27783813796</p>
+                <p><i class="fas fa-envelope"></i> gshambwe@gmail.com</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hook and Go Logistics. Founded by Gibson Shambwe in 2019. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

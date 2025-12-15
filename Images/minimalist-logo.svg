@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .primary-blue { fill: #0077ff; }
+    .dark-blue { fill: #005bbf; }
+    .light-blue { fill: #36a3ff; }
+    .white { fill: #ffffff; }
+    .dark-gray { fill: #333333; }
+    .gradient-blue { stop-color: #0077ff; }
+    .gradient-dark-blue { stop-color: #005bbf; }
+  </style>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="blue-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" class="gradient-blue" />
+      <stop offset="100%" class="gradient-dark-blue" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Shape -->
+  <rect x="10" y="10" width="180" height="180" rx="20" ry="20" fill="url(#blue-gradient)" />
+  
+  <!-- Truck Silhouette (Minimalist) -->
+  <path class="white" d="M40 120 h80 v-40 l30 0 l20 40 v20 h-20 v-10 a10 10 0 0 0 -20 0 v10 h-50 v-10 a10 10 0 0 0 -20 0 v10 h-20 z" />
+  
+  <!-- Wheels (Circles) -->
+  <circle cx="60" cy="130" r="15" class="dark-gray" stroke="#ffffff" stroke-width="3" />
+  <circle cx="140" cy="130" r="15" class="dark-gray" stroke="#ffffff" stroke-width="3" />
+  
+  <!-- Hook Element (Simplified) -->
+  <path class="white" d="M170 100 c10 -20, 30 0, 0 20 z" stroke="#ffffff" stroke-width="2" fill="none" />
+  
+  <!-- Window -->
+  <path class="light-blue" d="M50 100 h20 v-15 h-20 z" />
+</svg>

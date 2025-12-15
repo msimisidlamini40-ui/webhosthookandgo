@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .anchor { fill: #0077ff; }
+    .text { fill: #ffffff; font-family: Arial, sans-serif; font-weight: bold; }
+    .text-small { fill: #ffffff; font-family: Arial, sans-serif; font-size: 14px; letter-spacing: 2px; }
+  </style>
+  <circle cx="100" cy="100" r="90" fill="#1a1a1a"/>
+  <path class="anchor" d="M100 40 C 90 40, 85 45, 85 55 C 85 65, 90 70, 100 70 C 110 70, 115 65, 115 55 C 115 45, 110 40, 100 40 Z M100 70 L 100 120 M70 90 L130 90 M85 120 C 85 140, 70 150, 70 160 M115 120 C 115 140, 130 150, 130 160"/>
+  <text x="100" y="140" text-anchor="middle" class="text">HOOK AND GO</text>
+  <text x="100" y="160" text-anchor="middle" class="text-small">LOGISTICS</text>
+</svg>

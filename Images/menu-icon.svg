@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <style>
+    .primary { fill: #0077ff; }
+    .secondary { fill: #ffffff; }
+  </style>
+  
+  <!-- Menu Lines with Truck/Anchor Theme -->
+  <path class="secondary" d="M3 6 h18 v2 h-18 z" />
+  
+  <!-- Middle line with small truck -->
+  <path class="secondary" d="M3 11 h12 v2 h-12 z" />
+  <path class="primary" d="M15 11 h3 l2 2 v0 h-5 z" />
+  <circle cx="16" cy="13" r="0.7" class="secondary" />
+  <circle cx="19" cy="13" r="0.7" class="secondary" />
+  
+  <path class="secondary" d="M3 16 h18 v2 h-18 z" />
+</svg>

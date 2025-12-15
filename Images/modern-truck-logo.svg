@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .primary-blue { fill: #0077ff; }
+    .light-blue { fill: #36a3ff; }
+    .dark-blue { fill: #005bbf; }
+    .white { fill: #ffffff; }
+    .gray { fill: #f0f0f0; }
+    .dark-gray { fill: #333333; }
+  </style>
+  
+  <!-- Main Circle -->
+  <circle cx="100" cy="100" r="90" class="primary-blue"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="80" class="white"/>
+  
+  <!-- Truck Body -->
+  <path class="primary-blue" d="M40 110 h70 v-30 h30 l20 30 v20 h-15 v-10 h-90 v10 h-15 z" />
+  
+  <!-- Truck Cabin -->
+  <path class="dark-blue" d="M40 110 v-30 h25 v30 z" />
+  
+  <!-- Windows -->
+  <path class="light-blue" d="M45 90 h15 v-5 h-15 z" />
+  
+  <!-- Wheels -->
+  <circle cx="60" cy="120" r="10" class="dark-gray" />
+  <circle cx="60" cy="120" r="5" class="gray" />
+  <circle cx="130" cy="120" r="10" class="dark-gray" />
+  <circle cx="130" cy="120" r="5" class="gray" />
+  
+  <!-- Hook Element -->
+  <path class="dark-blue" d="M160 100 c5 -10, 15 -10, 15 0 v10 h-15 z" />
+  <path class="light-blue" d="M160 110 h15 c5 5, 0 10, -5 10 h-10 z" />
+  
+  <!-- Road Line -->
+  <path class="dark-gray" d="M30 135 h140" stroke="#333333" stroke-width="2" stroke-dasharray="10,5" />
+</svg>
